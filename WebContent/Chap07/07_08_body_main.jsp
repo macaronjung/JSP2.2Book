@@ -14,7 +14,7 @@
 include 전 name 파라미터 값 : <%= request.getParameter("name") %>
 <hr>
 
-<jsp:include page="body_sub.jsp" flush="false">
+<jsp:include page="07_09_body_sub.jsp" flush="false">
 	<jsp:param name="name" value="최범균" />
 	<jsp:param name="name" value="cbk" />
 </jsp:include>
